@@ -14,4 +14,53 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dependencies\glew-2.2.0\doc\advanced.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\basic.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\build.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\credits.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\glew.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\glxew.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\index.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\install.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\log.html" />
+    <None Include="Dependencies\glew-2.2.0\doc\wglew.html" />
+    <None Include="Dependencies\GLFW\lib-vc2022\glfw3.dll" />
+    <None Include="res\Shaders\VertexBasic.shader" />
+    <None Include="res\Shaders\FragBasic.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dependencies\glew-2.2.0\include\GL\eglew.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glew-2.2.0\include\GL\glew.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glew-2.2.0\include\GL\glxew.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\glew-2.2.0\include\GL\wglew.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3native.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Dependencies\glew-2.2.0\lib\Release\Win32\glew32.lib" />
+    <Library Include="Dependencies\glew-2.2.0\lib\Release\Win32\glew32s.lib" />
+    <Library Include="Dependencies\glew-2.2.0\lib\Release\x64\glew32.lib" />
+    <Library Include="Dependencies\glew-2.2.0\lib\Release\x64\glew32s.lib" />
+    <Library Include="Dependencies\GLFW\lib-vc2022\glfw3.lib" />
+    <Library Include="Dependencies\GLFW\lib-vc2022\glfw3_mt.lib" />
+    <Library Include="Dependencies\GLFW\lib-vc2022\glfw3dll.lib" />
+  </ItemGroup>
 </Project>
