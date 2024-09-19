@@ -1,4 +1,3 @@
-//use define
 #shader vertex
 #version 330 core
         
